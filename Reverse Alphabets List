@@ -1,0 +1,4 @@
+def reverse_alphabets_list(s):
+    sarr = ''.join(s)
+    s[:] = sarr[::-1]
+    return s
